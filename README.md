@@ -4,7 +4,7 @@ Hi there :tomato:, I'm Fanqie Lan.
 
 Here are some fantastic things. Maybe like a photo, food, sports et al.
 
-- $$ Life(me) = Eat(x) + Working(x) + Travel(x) + ... + Sleep(x) + ... $$
+  $$ Life(me) = Eat(x) + Working(x) + Travel(x) + ... + Sleep(x) + ... $$
 - 阳台女孩👧🏻.jpg
 
 <img src="https://img01.anheyu.com/useruploads/110/2023/03/14/6410113caabf1.webp">
