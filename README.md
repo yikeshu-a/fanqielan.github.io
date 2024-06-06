@@ -19,4 +19,6 @@ Perhaps I didn’t know these things at that time.
 
 在过去的时间里，有很多事情已经被遗忘了，现在还记得的事情或许才是最终需要保留的—— 陈同学
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fanqielan&layout=compact&theme=tokyonight)
+
 </details>
