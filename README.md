@@ -1,5 +1,6 @@
-Hi there :tomato:, I'm Fanqie Lan.
-- From JiangSu Province, China :cn:
+Hi there :tomato:, I'm **Fanqie Lan**.
+
+- From Zhejiang Province, China :cn:
 - Working for App develop :lollipop:
 
 Here are some fantastic things. Maybe like a photo, food, sports et al.
