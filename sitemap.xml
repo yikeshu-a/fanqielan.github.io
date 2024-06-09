@@ -6,7 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fanqielan.github.io/Develop/MingJieC/</loc>
+         <loc>https://fanqielan.github.io/Develop/C/</loc>
+         <lastmod>2024-06-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanqielan.github.io/Develop/Python/</loc>
          <lastmod>2024-06-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -41,7 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fanqielan.github.io/Paper/lifeIndex/</loc>
+         <loc>https://fanqielan.github.io/Paper/life/</loc>
          <lastmod>2024-06-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
