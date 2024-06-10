@@ -1,0 +1,14 @@
+.md-footer__inner.md-grid {
+  display: none;
+}
+
+/*  Mouse Style */
+/* x1.cur | link.cur */
+body {
+  cursor: url(https://npm.elemecdn.com/lanfanqie/source/x1.cur), auto !important;
+}
+a,
+img,
+button {
+  cursor: url(https://npm.elemecdn.com/lanfanqie/source/link.cur), auto !important;
+}
