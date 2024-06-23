@@ -644,6 +644,42 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#discordklipper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discord(klipper社区)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      上位机（树莓派）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moonrakerhttp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moonraker（添加Http接口）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debian_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debian_11 安装
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1012,6 +1048,42 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#discordklipper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discord(klipper社区)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      上位机（树莓派）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moonrakerhttp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moonraker（添加Http接口）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debian_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debian_11 安装
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1056,6 +1128,7 @@
 <li>通过阅读与理解klipper代码,快速掌握基础固件知识🍀,</li>
 <li>快速查看对应代码，请看🫱目录。</li>
 <li>官方文档: <a href="https://www.klipper3d.org/zh/">https://www.klipper3d.org/zh/</a></li>
+<li>安装教程: <a href="https://www.klipper3d.org/zh/Installation.html">https://www.klipper3d.org/zh/Installation.html</a></li>
 </ul>
 <hr />
 <blockquote>
@@ -1081,6 +1154,129 @@
 <p>这是一款集多种编程语言，如C、C++、C#、Python、Java等的优质编译器。
 通过安装扩展（Extension）插件，兼容不同编程语言以及框架的开发。</p>
 </blockquote>
+<h2 id="discordklipper">Discord(klipper社区)<a class="headerlink" href="#discordklipper" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Discod社区: <a href="https://discord.com/channels/431557959978450984/431559228050636820">https://discord.com/channels/431557959978450984/431559228050636820</a></li>
+</ul>
+<blockquote>
+<p>官方推荐的社区，在这里可以与klipper开发者探讨关于一些bug的解决方案，
+以及改进和贡献的内容。</p>
+</blockquote>
+<h2 id="_1">上位机（树莓派）<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>树莓派(OctoPi固件): <a href="https://github.com/guysoft/OctoPi">https://github.com/guysoft/OctoPi</a></li>
+<li>安装教程: <a href="https://blog.csdn.net/bobthegreat/article/details/138268485">https://blog.csdn.net/bobthegreat/article/details/138268485</a></li>
+</ul>
+<blockquote>
+<p>OctoPrint是一个开源的3D打印机控制软件，它允许用户通过网络浏览器远程监控和控制3D打印机。它提供了许多功能，如实时打印监控、温度控制、文件管理、切片等。OctoPrint旨在取代3D打印机上的内置控制面板，提供更直观和强大的用户体验。</p>
+</blockquote>
+<p>OctoPi是一个为树莓派（Raspberry Pi）优化的OctoPrint发行版。它是一个完整的操作系统镜像，包含了预配置的OctoPrint以及所有必要的支持软件，使得用户可以轻松地将树莓派变成一个专门的3D打印机控制器。OctoPi基于Raspbian（树莓派的官方操作系统），并针对3D打印机的使用场景进行了优化。</p>
+<h2 id="moonrakerhttp">Moonraker（添加Http接口）<a class="headerlink" href="#moonrakerhttp" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>使用Server.register_endpoint()函数添加新的接口url：</p>
+</blockquote>
+<div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><span class="k">class</span> <span class="nc">KlippyAPI</span><span class="p">(</span><span class="n">APITransport</span><span class="p">):</span>
+</span><span id="__span-1-2">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">ConfigHelper</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-1-3">        <span class="bp">self</span><span class="o">.</span><span class="n">server</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">get_server</span><span class="p">()</span>
+</span><span id="__span-1-4">        <span class="bp">self</span><span class="o">.</span><span class="n">klippy</span><span class="p">:</span> <span class="n">Klippy</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">lookup_component</span><span class="p">(</span><span class="s2">&quot;klippy_connection&quot;</span><span class="p">)</span>
+</span><span id="__span-1-5">        <span class="bp">self</span><span class="o">.</span><span class="n">eventloop</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">get_event_loop</span><span class="p">()</span>
+</span><span id="__span-1-6">        <span class="n">app_args</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">get_app_args</span><span class="p">()</span>
+</span><span id="__span-1-7">        <span class="bp">self</span><span class="o">.</span><span class="n">version</span> <span class="o">=</span> <span class="n">app_args</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;software_version&#39;</span><span class="p">)</span>
+</span><span id="__span-1-8">        <span class="c1"># Maintain a subscription for all moonraker requests, as</span>
+</span><span id="__span-1-9">        <span class="c1"># we do not want to overwrite them</span>
+</span><span id="__span-1-10">        <span class="bp">self</span><span class="o">.</span><span class="n">host_subscription</span><span class="p">:</span> <span class="n">Subscript</span> <span class="o">=</span> <span class="p">{}</span>
+</span><span id="__span-1-11">        <span class="n">slef</span><span class="o">.</span><span class="n">subscription_callbacks</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">SubCallback</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span id="__span-1-12">        <span class="n">slef</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">register_endpoint</span><span class="p">(</span><span class="s2">&quot;/printer/probe_query&quot;</span><span class="p">,</span> <span class="n">RequestType</span><span class="o">.</span><span class="n">POST</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_gcode_probe_query</span><span class="p">)</span>
+</span><span id="__span-1-13">
+</span><span id="__span-1-14">        <span class="c1"># Resgister GCode Aliases</span>
+</span><span id="__span-1-15">        <span class="bp">self</span><span class="o">.</span><span class="n">server</span><span class="o">.</span><span class="n">register_endpoint</span><span class="p">(</span>
+</span><span id="__span-1-16">            <span class="s2">&quot;/printer/print/pause&quot;</span><span class="p">,</span> <span class="n">RequestType</span><span class="o">.</span><span class="n">POST</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_gcode_pause</span>
+</span><span id="__span-1-17">        <span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>以及相应的响应函数_gcode_probe_query：</p>
+</blockquote>
+<div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><span class="k">async</span> <span class="k">def</span> <span class="nf">_gcode_probe_query</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">web_request</span><span class="p">:</span> <span class="n">WebRequest</span><span class="p">)</span><span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+</span><span id="__span-2-2">        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_gcode_probe_query</span><span class="p">()</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>与klipper通信说明</p>
+</blockquote>
+<ul>
+<li>
+<p>若要与klipper通信，需要调用_send_klippy_request函数，制定klipper中对应的接口名“probe_query/query”。</p>
+</li>
+<li>
+<p>并在klipper中调用webhooks的register_endpoint函数定义接口，接口名与Moonraker中的接口名对应，同时制定响应函数。</p>
+</li>
+<li>
+<p>在响应函数中可以调用web_request的send函数给Moonraker返回数据。</p>
+</li>
+</ul>
+<blockquote>
+<p>事件响应</p>
+</blockquote>
+<ul>
+<li>
+<p>使用Server的register_event_handler函数注册事件，指定事件名和回调函数。</p>
+</li>
+<li>
+<p>调用Server.send_event函数触发事件，需要指定事件名和参数</p>
+</li>
+</ul>
+<h2 id="debian_11">Debian_11 安装<a class="headerlink" href="#debian_11" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>配置阿里源镜像</p>
+</blockquote>
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1">vim<span class="w"> </span>/etc/apt/sources.list
+</span></code></pre></div></td></tr></table></div>
+<p>将下面的代码写入上面的文件中</p>
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1">deb<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span><span id="__span-4-2">deb<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable-proposed-updates<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span><span id="__span-4-3">deb<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable-updates<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span><span id="__span-4-4">deb-src<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span><span id="__span-4-5">deb-src<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable-proposed-updates<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span><span id="__span-4-6">deb-src<span class="w"> </span>http://mirrors.aliyun.com/debian<span class="w"> </span>stable-updates<span class="w"> </span>main<span class="w"> </span>contrib<span class="w"> </span>non-free
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>安装Klipper | Moonraker</p>
+</blockquote>
+<div class="language-shell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1">su<span class="w"> </span>klipper<span class="w">  </span><span class="c1"># 切换用户</span>
+</span><span id="__span-5-2"><span class="nb">cd</span><span class="w"> </span>~<span class="w">        </span><span class="c1"># 切换根目录</span>
+</span><span id="__span-5-3">git<span class="w"> </span>clone<span class="w"> </span>https://github.com/dw-0/kiauh.git<span class="w">     </span><span class="c1"># git下载kiauh脚本</span>
+</span><span id="__span-5-4">git<span class="w"> </span>clone<span class="w"> </span>https://github.com/zm112/kiauh.git<span class="w">    </span><span class="c1"># git下载kiauh脚本</span>
+</span><span id="__span-5-5">./kiauh/kiauh.sh
+</span><span id="__span-5-6"><span class="c1"># 运行脚本（无报错）表示安装成功</span>
+</span><span id="__span-5-7"><span class="c1"># 右侧显示Not installed！表示未安装内容</span>
+</span></code></pre></div></td></tr></table></div>
 
 
 
